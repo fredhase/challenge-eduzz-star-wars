@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+.search-bar > input {
+    padding: 6px 30px;
+}
+
+.search-btn {
+    padding: 6px 30px 6px 40px;
+    margin-left: 2.5%;
+    background-image: url('../img/millennium-falcon.png');
+    background-repeat: no-repeat;
+}
+
+.home-btn {
+    padding: 6px 30px 6px 40px;
+    margin-left: 2.5%;
+    background-image: url('../img/death-star.png');
+    background-repeat: no-repeat;
+}
